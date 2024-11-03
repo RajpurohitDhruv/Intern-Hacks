@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchEvents() {
     try {
-        const response = await fetch('http://localhost:3000/Eventsubmit/getevents');
+        const response = await fetch('https://intern-hacks.vercel.app/Eventsubmit/getevents');
         if (!response.ok) {
             throw new Error('Failed to fetch events');
         }
@@ -62,7 +62,7 @@ function displayEvents(events) {
 
 async function deleteEvent(eventId) {
     try {
-        const response = await fetch(`http://localhost:3000/Eventsubmit/deleteEvent/${eventId}`, {
+        const response = await fetch(`https://intern-hacks.vercel.app/Eventsubmit/deleteEvent/${eventId}`, {
             method: 'DELETE'
         });
         if (!response.ok) {

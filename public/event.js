@@ -113,7 +113,7 @@ document.getElementById('event-form').addEventListener('submit', function(event)
     };
 
     // Make a POST request to the API
-    fetch('http://localhost:3000/Eventsubmit/event', {
+    fetch('https://intern-hacks.vercel.app/Eventsubmit/event', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

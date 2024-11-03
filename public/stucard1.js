@@ -1,7 +1,7 @@
 // Function to fetch user profiles from the backend API
 async function fetchUserProfiles() {
     try {
-        const response = await fetch('http://localhost:3000/userprofile/students');
+        const response = await fetch('https://intern-hacks.vercel.app/userprofile/students');
         const userData = await response.json();
         return userData.students;
     } catch (error) {

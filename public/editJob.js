@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function fetchEventDetails(eventId) {
     try {
-        const response = await fetch(`http://localhost:3000/Jobsubmit/jobgetevents/${eventId}`);
+        const response = await fetch(`https://intern-hacks.vercel.app/Jobsubmit/jobgetevents/${eventId}`);
         if (!response.ok) {
             throw new Error('Failed to fetch event details');
         }
@@ -63,7 +63,7 @@ document.getElementById("editEventForm").addEventListener("submit", async functi
     const eventId = new URLSearchParams(window.location.search).get('id');
 
     try {
-        const response = await fetch(`http://localhost:3000/Jobsubmit/jobeditEvent/${eventId}`, {
+        const response = await fetch(`https://intern-hacks.vercel.app/Jobsubmit/jobeditEvent/${eventId}`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'

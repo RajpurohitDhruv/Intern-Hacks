@@ -77,7 +77,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     };
 
     // Make a POST request to the API
-    fetch('http://localhost:3000/userprofile/profile', {
+    fetch('https://intern-hacks.vercel.app/userprofile/profile', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

@@ -44,7 +44,7 @@ document.getElementById('event-form').addEventListener('submit', function(event)
     };
 
     // Make a POST request to the API
-    fetch('http://localhost:3000/Jobsubmit/jobevent', {
+    fetch('https://intern-hacks.vercel.app/Jobsubmit/jobevent', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

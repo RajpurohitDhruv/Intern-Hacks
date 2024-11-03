@@ -23,11 +23,13 @@ const jobRouter = require('./api/route/Job.route.js');
 //     })
 // })
 
-mongoose.connect('mongodb+srv://patelkanj012:<db_password>@cluster0.vxq0n0h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
+mongoose.connect('mongodb+srv://patelkanj012:kanj@cluster0.vxq0n0h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
 mongoose.connection.on('error',err=>{
+    console.log(err);
+    
     console.log('connection faild')
 })
 mongoose.connection.on('connected',()=>{

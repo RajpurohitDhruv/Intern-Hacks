@@ -23,7 +23,7 @@ const jobRouter = require('./api/route/Job.route.js');
 //     })
 // })
 
-mongoose.connect('mongodb://localhost:27017/final',{
+mongoose.connect('mongodb+srv://patelkanj012:<db_password>@cluster0.vxq0n0h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })

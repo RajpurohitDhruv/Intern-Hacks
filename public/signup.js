@@ -39,16 +39,16 @@ async function validateSignup(event) {
             switch (formData.role) {
                 case 'student':
                     // window.location.href = 'http://127.0.0.1:5500/public/proproject.html';
-                    window.location.href = 'http://127.0.0.1:5501/public/stuForm.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/stuForm.html';
                     break;
                 case 'recruiter':
                     console.log(formData._id);  
                     localStorage.setItem('OrganizerId',formData._id); 
-                    window.location.href = 'http://127.0.0.1:5501/public/recu.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/recu.html';
                     break;
                 case 'organizer':
                     localStorage.setItem('OrganizerId',formData._id); 
-                    window.location.href = 'http://127.0.0.1:5501/public/desevent.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/desevent.html';
                     break;
                 default:
                     res.status(400).json({ message: 'Invalid role' });

@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             // Redirect to the login page or perform any other necessary actions
             // Example redirect (uncomment and adjust as needed):
-            window.location.href = "http://127.0.0.1:5501/public/home1.html";
+            window.location.href = "https://intern-hacks-frontend.vercel.app/home1.html";
         }
     });
     
@@ -138,13 +138,13 @@ function profile(){
 
     switch (role1) {
         case 'student':
-            window.location.href = 'http://127.0.0.1:5501/public/project.html';
+            window.location.href = 'hhttps://intern-hacks-frontend.vercel.app/project.html';
             break;
         case 'recruiter':
-            window.location.href = 'http://127.0.0.1:5501/public/recu.html';
+            window.location.href = 'https://intern-hacks-frontend.vercel.app/recu.html';
             break;
         case 'organizer':
-            window.location.href = 'http://127.0.0.1:5501/public/desevent.html';
+            window.location.href = 'https://intern-hacks-frontend.vercel.app/desevent.html';
             break;
         default:
             console.log('Invalid role');

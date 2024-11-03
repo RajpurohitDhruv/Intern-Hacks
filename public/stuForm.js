@@ -97,7 +97,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         // Redirect to proproject.html
         // localStorage.setItem('username',formData.username);
         // localStorage.setItem('email',formData.email);
-        window.location.href = 'http://127.0.0.1:5501/public/project.html';
+        window.location.href = 'https://intern-hacks-frontend.vercel.app/project.html';
     })
     .catch(error => {
         console.error('Error sending form data:', error);

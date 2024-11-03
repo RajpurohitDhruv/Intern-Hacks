@@ -78,10 +78,10 @@ async function deleteEvent(eventId) {
 
 
 function redirecthome(){
-    window.location.href = "http://127.0.0.1:5501/public/home.html" 
+    window.location.href = "https://intern-hacks-frontend.vercel.app/home.html" 
 }
 function redirectstudent(){
-    window.location.href = "http://127.0.0.1:5501/public/desevent.html" 
+    window.location.href = "https://intern-hacks-frontend.vercel.app/desevent.html" 
 }
 // async function editEventForm(eventId){
 //     window.location.href="http://127.0.0.1:5501/public/editevent.html";

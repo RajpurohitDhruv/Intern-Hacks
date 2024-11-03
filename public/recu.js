@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function postevent(){
-            window.location.href = "http://127.0.0.1:5501/public/postjob.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/postjob.html" 
 }
 function redirecthome(){
-            window.location.href = "http://127.0.0.1:5501/public/home.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/home.html" 
 }
 function findevent(){
-            window.location.href = "http://127.0.0.1:5501/public/postjobmy.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/postjobmy.html" 
 }
 function alljob(){
-            window.location.href = "http://127.0.0.1:5501/public/postjobpage.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/postjobpage.html" 
 }
 
 
@@ -40,7 +40,7 @@ let isAuthenticated = localStorage.getItem('isAuthenticated') === 'true'; // You
     
             // Redirect to the login page or perform any other necessary actions
             // Example redirect (uncomment and adjust as needed):
-            window.location.href = "http://127.0.0.1:5501/public/home1.html";
+            window.location.href = "https://intern-hacks-frontend.vercel.app/home1.html";
         }
     });
     

@@ -58,17 +58,17 @@ async function validateLogin() {
 
             switch (data.role) {
                 case 'student':
-                    window.location.href = 'http://127.0.0.1:5501/public/project.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/project.html';
                     break;
                 case 'recruiter':
                     console.log("recruiter");
                     localStorage.setItem('OrganizerId',data._id); 
-                    window.location.href = 'http://127.0.0.1:5501/public/recu.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/recu.html';
                     break;
                 case 'organizer':
                     console.log("organizer"); 
                     localStorage.setItem('OrganizerId',data._id); // Set organizerId in localStorage
-                    window.location.href = 'http://127.0.0.1:5501/public/desevent.html';
+                    window.location.href = 'https://intern-hacks-frontend.vercel.app/desevent.html';
                     break;
                 default:
                     res.status(400).json({ message: 'Invalid role' });

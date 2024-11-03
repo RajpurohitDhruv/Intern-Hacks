@@ -74,7 +74,7 @@ document.getElementById("editEventForm").addEventListener("submit", async functi
             throw new Error('Failed to edit event');
         }
         // If editing successful, redirect back to the events list page
-        window.location.href = 'http://127.0.0.1:5501/public/postjobmy.html';
+        window.location.href = 'https://intern-hacks-frontend.vercel.app/postjobmy.html';
     } catch (error) {
         console.error('Error editing event:', error);
     }

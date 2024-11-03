@@ -39,5 +39,5 @@ function displayEvents(events) {
 }
 
 function dashboard(){
-    window.location.href = "http://127.0.0.1:5501/public/recu.html" 
+    window.location.href = "https://intern-hacks-frontend.vercel.app/recu.html" 
 }

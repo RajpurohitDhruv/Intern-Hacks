@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function findstu(){
-            window.location.href = "http://127.0.0.1:5501/public/stucard1.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/stucard1.html" 
 }
 function redirecthome(){
-            window.location.href = "http://127.0.0.1:5501/public/home.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/home.html" 
 }
 function findevent(){
-            window.location.href = "http://127.0.0.1:5501/public/eventpage.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/eventpage.html" 
 }
 function findjob(){
-            window.location.href = "http://127.0.0.1:5501/public/postjobpage.html" 
+            window.location.href = "https://intern-hacks-frontend.vercel.app/postjobpage.html" 
 }
 
 
@@ -39,6 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Redirect to the login page or perform any other necessary actions
         // Example redirect (uncomment and adjust as needed):
-        window.location.href = "http://127.0.0.1:5501/public/home1.html";
+        window.location.href = "https://intern-hacks-frontend.vercel.app/home1.html";
     }
 });

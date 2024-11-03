@@ -86,10 +86,10 @@ createAndDisplayUserCards();
 
 // Function to redirect to Home page
 function redirecthome() {
-    window.location.href = "http://127.0.0.1:5501/public/home.html";
+    window.location.href = "https://intern-hacks-frontend.vercel.app/home.html";
 }
 
 // Function to redirect to Student page
 function redirectstudent() {
-    window.location.href = "http://127.0.0.1:5501/public/project.html";
+    window.location.href = "https://intern-hacks-frontend.vercel.app/project.html";
 }
